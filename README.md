@@ -1,8 +1,8 @@
 # Customer RFM Segmentation
 
-Used a marketing dataset to segment customers based on RFM (Recency, Frequency, Monetary) scores and explored the behavioral and demographic differences between segments.
+📊 [View Notebook on nbviewer](https://nbviewer.org/github/itshyunseunglee/customer-rfm-analysis/blob/main/RFM_analysis.ipynb)
 
----
+Used a marketing dataset to segment customers based on RFM (Recency, Frequency, Monetary) scores and explored the behavioral and demographic differences between segments.
 
 ## Dataset
 
@@ -14,8 +14,6 @@ Key columns:
 - `amount_alcohol`, `amount_fruit`, `amount_meat`, `amount_fish`, `amount_snack`, `amount_general`
 - `num_purchase_web`, `num_purchase_store`, `num_purchase_discount`
 - `promotion_1` through `promotion_6` — binary flags for each campaign
-
----
 
 ## What I did
 
@@ -40,8 +38,6 @@ Broke down each segment by:
 - Spending share by product category (alcohol, meat, etc.)
 - Average promotion acceptance rate per campaign
 
----
-
 ## Findings
 
 - Alcohol and meat consistently make up the largest spending share across all segments
@@ -49,13 +45,9 @@ Broke down each segment by:
 - Low-value customers (segment 1) barely interact with promotions except campaign 6
 - Spending per segment differs significantly — segment 3 accounts for a disproportionate share of total revenue
 
----
-
 ## Stack
 
 Python, pandas, matplotlib, seaborn
-
----
 
 ## Structure
 
